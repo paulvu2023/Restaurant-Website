@@ -1,0 +1,1 @@
+console.log("I'm going to be a multi millionaire and retire my parents.");
