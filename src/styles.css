@@ -20,7 +20,8 @@ body {
     height: 90px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
+    border-bottom: 2px solid goldenrod;
 }
 
 button {
