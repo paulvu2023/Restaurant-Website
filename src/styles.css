@@ -24,7 +24,7 @@ body {
     border-bottom: 2px solid goldenrod;
 }
 
-button {
+.navbutton {
     background-color: transparent;
     color: white;
     border: none;
@@ -32,9 +32,24 @@ button {
     font-family: 'Raleway', sans-serif;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
-    color: white;
+    color: goldenrod;
     font-family: 'Monsieur La Doulaise', cursive;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 80px;
+}
+
+.main #menu {
+    color: black;
+    background-color: goldenrod;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 25px;
 }
