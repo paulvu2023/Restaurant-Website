@@ -1,4 +1,10 @@
 body {
     background-image: url(/images/food.png);
-    
+    background-size: 100%;
+}
+
+@media (width <= 1360px) {
+    body {
+        background-size: 1359px auto;
+    }
 }
