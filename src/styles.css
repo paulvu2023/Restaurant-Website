@@ -4,8 +4,8 @@ body {
     background-position: center -200px;
 }
 
-@media (width <= 1360px) {
+@media (width <= 1635px) {
     body {
-        background-size: 1359px auto;
+        background-size: 1635px auto;
     }
 }
