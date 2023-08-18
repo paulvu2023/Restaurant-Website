@@ -1,6 +1,7 @@
 body {
     background-image: url(/images/food.png);
     background-size: 100%;
+    background-position: center -200px;
 }
 
 @media (width <= 1360px) {
