@@ -4,8 +4,21 @@ body {
     background-position: center -200px;
 }
 
-@media (width <= 1635px) {
+/* Lock background size when width is under 1635px*/
+@media (width <= 1635px) { 
     body {
         background-size: 1635px auto;
     }
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 90px 1fr;
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
