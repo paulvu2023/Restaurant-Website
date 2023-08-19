@@ -1,7 +1,7 @@
 body {
     background-image: url(/images/food.png);
     background-size: 100%;
-    background-position: center -200px;
+    background-position: center -50px;
 }
 
 /* Lock background size when width is under 1635px*/
