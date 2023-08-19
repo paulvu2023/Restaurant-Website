@@ -1,7 +1,7 @@
-import loadHomepage from './homepage.js';
+import loadHomePage from './homepage.js';
 
 const loadPage = () => {
-    loadHomepage();
+    loadHomePage();
 };
 
 export default loadPage;
