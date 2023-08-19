@@ -9,6 +9,10 @@ body {
     body {
         background-size: 1635px auto;
     }
+
+    .main h1 {
+        font-size: 60px;
+    }
 }
 
 #content {
