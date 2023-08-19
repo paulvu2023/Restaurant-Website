@@ -43,10 +43,23 @@ body {
 }
 
 h1 {
-    color: white;
-    font-family: 'Monsieur La Doulaise', cursive;
-    font-weight: 100;
     font-size: 80px;
+    font-family: 'Monsieur La Doulaise', cursive;
+    margin-bottom: 0;
+}
+
+h1, .main div {
+    color: white;
+    font-weight: 100;
+}
+
+.main div {
+    border-top: 3px solid goldenrod;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
 }
 
 .main #menu {
