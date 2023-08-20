@@ -1,7 +1,5 @@
 import loadHomePage from './homepage.js';
 
-const loadPage = () => {
-    loadHomePage();
-};
+loadHomePage();
 
 export default loadPage;
