@@ -2,6 +2,7 @@ const loadNavbar = () => {
     const content = document.querySelector('#content');
     const navbar = document.createElement('div');
     navbar.classList.add('navbar');
+    content.appendChild(navbar);
 
     const homeButton = document.createElement('button');
     const menuButton = document.createElement('button');
@@ -16,9 +17,9 @@ const loadNavbar = () => {
     aboutButton.setAttribute('id', 'about');
 
     const selectedNavbar = document.querySelector('.navbar');
-    content.appendChild(homeButton);
-    content.appendChild(menuButton);
-    content.appendChild(aboutButton);
+    selectedNavbar.appendChild(homeButton);
+    selectedNavbar.appendChild(menuButton);
+    selectedNavbar.appendChild(aboutButton);
 };
 
 export default loadNavbar;

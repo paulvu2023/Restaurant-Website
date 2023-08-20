@@ -1,5 +1,9 @@
-import loadHomePage from './homepage.js';
+import loadNavbar from './navbar.js';
+import loadHomepage from './homepage.js';
 
-loadHomePage();
+const loadPage = () => {
+    loadNavbar();
+    loadHomepage();
+};
 
 export default loadPage;
