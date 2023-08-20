@@ -2,8 +2,8 @@ import loadNavbar from './navbar.js';
 import loadHomepage from './homepage.js';
 
 const loadPage = () => {
-    loadNavbar();
-    loadHomepage();
+    //loadNavbar();
+    //loadHomepage();
 };
 
 export default loadPage;
