@@ -78,6 +78,7 @@ h1, .main div {
 
 .about_container {
     border-top: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
     background-color: white;
     height: 100%;
 }
