@@ -12,6 +12,10 @@ const loadNavbar = () => {
     menuButton.classList.add('navbutton');
     aboutButton.classList.add('navbutton');
 
+    homeButton.textContent = 'HOME';
+    menuButton.textContent = 'MENU';
+    aboutButton.textContent = 'ABOUT';
+
     homeButton.setAttribute('id', 'home');
     menuButton.setAttribute('id', 'menu');
     aboutButton.setAttribute('id', 'about');
