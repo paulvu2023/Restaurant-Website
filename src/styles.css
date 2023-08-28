@@ -89,16 +89,28 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-style: italic;
     margin: 0px;
     margin-top: -20px;
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 1px solid black;
+}
+
+.menu_item, .description {
+    font-family: 'Raleway', sans-serif;
 }
 
 .menu_item {
-    font-size: 25px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
     color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.description {
+    font-size: 18px;
 }
