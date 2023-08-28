@@ -1,10 +1,10 @@
 import loadNavbar from './navbar.js';
-import loadHomepage from './homepage.js';
+import loadHomePage from './homepage.js';
 import loadMenuPage from './menupage.js';
 
 const loadPage = () => {
-    //loadNavbar();
-    //loadHomePage();
+    loadNavbar();
+    loadHomePage();
     //loadMenuPage();
 };
 
