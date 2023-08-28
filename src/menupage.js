@@ -45,7 +45,15 @@ const loadMenuPage = () => {
     desc3.textContent = 'A tender cut of beef taken from the smaller end of the tenderloin, typically served with a sauce.';
     about_container.appendChild(desc3);
 
-    
+    const menu4 = document.createElement('div');
+    menu4.classList.add('menu_item');
+    menu4.textContent = 'Pâté de Foie Gras';
+    about_container.appendChild(menu4);
+
+    const desc4 = document.createElement('div');
+    desc4.classList.add('description');
+    desc4.textContent = 'A spread made from finely ground or pureed liver, often served with bread or crackers.';
+    about_container.appendChild(desc4);
 };
 
 export default loadMenuPage;
