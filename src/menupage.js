@@ -34,6 +34,18 @@ const loadMenuPage = () => {
     desc2.classList.add('description');
     desc2.textContent = 'A Provençal fish stew containing various types of fish and shellfish, flavored with herbs and spices.';
     about_container.appendChild(desc2);
+    
+    const menu3 = document.createElement('div');
+    menu3.classList.add('menu_item');
+    menu3.textContent = 'Filet Mignon';
+    about_container.appendChild(menu3);
+
+    const desc3 = document.createElement('div');
+    desc3.classList.add('description');
+    desc3.textContent = 'A tender cut of beef taken from the smaller end of the tenderloin, typically served with a sauce.';
+    about_container.appendChild(desc3);
+
+    
 };
 
 export default loadMenuPage;
