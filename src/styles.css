@@ -12,7 +12,7 @@ body {
         background-size: 1635px auto;
     }
 
-    .main h1 {
+    .home_container h1 {
         font-size: 60px;
     }
 }
@@ -39,7 +39,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.main {
+.home_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,12 +54,12 @@ h1 {
     margin: 10px;
 }
 
-.main h1, .main div {
+.home_container h1, .home_container div {
     color: white;
     font-weight: 100;
 }
 
-.main div {
+.home_container div {
     border-top: 3px solid goldenrod;
     padding-top: 20px;
     padding-bottom: 60px;
@@ -68,7 +68,7 @@ h1 {
     font-style: italic;
 }
 
-.main #menu {
+.home_container #menu {
     color: black;
     background-color: goldenrod;
     border: none;
