@@ -3,9 +3,9 @@ import loadHomePage from './homepage.js';
 import loadMenuPage from './menupage.js';
 
 const loadPage = () => {
-    loadNavbar();
+    //loadNavbar();
     //loadHomePage();
-    loadMenuPage();
+    //loadMenuPage();
 };
 
 export default loadPage;
