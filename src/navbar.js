@@ -1,3 +1,7 @@
+import loadHomePage from './homepage.js';
+import loadMenuPage from './menupage.js';
+import loadAboutPage from './aboutpage.js';
+
 const loadNavbar = () => {
     const content = document.querySelector('#content');
     const navbar = document.createElement('div');
@@ -24,6 +28,26 @@ const loadNavbar = () => {
     selectedNavbar.appendChild(homeButton);
     selectedNavbar.appendChild(menuButton);
     selectedNavbar.appendChild(aboutButton);
+
+    homeButton.addEventListener('click', () => {
+        clearDOM();
+        loadHomePage();
+    });
+
+    menuButton.addEventListener('click', () => {
+        clearDOM();
+        loadMenuPage();
+    });
+
+    aboutButton.addEventListener('click', () => {
+        clearDOM();
+        loadAboutPage();
+    });
 };
+
+function clearDOM (){
+    const content = document.querySelector('#content');
+    content.textContent = '';
+}
 
 export default loadNavbar;
