@@ -54,6 +54,16 @@ const loadMenuPage = () => {
     desc4.classList.add('description');
     desc4.textContent = 'A spread made from finely ground or pureed liver, often served with bread or crackers.';
     about_container.appendChild(desc4);
+
+    const menu5 = document.createElement('div');
+    menu5.classList.add('menu_item');
+    menu5.textContent = 'Truffle Rizzotto';
+    about_container.appendChild(menu5);
+
+    const desc5 = document.createElement('div');
+    desc5.classList.add('description');
+    desc5.textContent = 'Creamy rizz dish infused with the exquisite flavor of truffles, a type of edible fungi.';
+    about_container.appendChild(desc5);
 };
 
 export default loadMenuPage;
