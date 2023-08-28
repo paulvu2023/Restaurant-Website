@@ -62,3 +62,4 @@ function clearContent(){
 }
 
 export default loadNavbar;
+export { clearContent };

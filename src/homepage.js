@@ -1,3 +1,5 @@
+import loadMenuPage from './menupage.js';
+import { clearContent } from './navbar.js';
 
 const loadHomePage = () => {
     const content = document.querySelector('#content');
@@ -18,6 +20,11 @@ const loadHomePage = () => {
     menuButton.setAttribute('id', 'menu');
     menuButton.textContent = 'VIEW THE MENU';
     selectedhome_container.appendChild(menuButton);
+
+    menuButton.addEventListener('click', () => {
+        clearContent();
+        loadMenuPage();
+    });
 };
 
 export default loadHomePage;
