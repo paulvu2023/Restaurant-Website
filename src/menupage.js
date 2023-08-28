@@ -19,6 +19,21 @@ const loadMenuPage = () => {
     menu1.classList.add('menu_item');
     menu1.textContent = 'Coq au Vin';
     about_container.appendChild(menu1);
+
+    const desc1 = document.createElement('div');
+    desc1.classList.add('description');
+    desc1.textContent = 'A classic French dish of chicken cooked in red wine with mushrooms, onions, and bacon.';
+    about_container.appendChild(desc1);
+
+    const menu2 = document.createElement('div');
+    menu2.classList.add('menu_item');
+    menu2.textContent = 'Bouillabaisse';
+    about_container.appendChild(menu2);
+
+    const desc2 = document.createElement('div');
+    desc2.classList.add('description');
+    desc2.textContent = 'A Provençal fish stew containing various types of fish and shellfish, flavored with herbs and spices.';
+    about_container.appendChild(desc2);
 };
 
 export default loadMenuPage;
