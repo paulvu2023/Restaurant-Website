@@ -37,6 +37,11 @@ body {
     border: none;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbutton:hover {
+    transform: scale(1.2);
 }
 
 .home_container {
